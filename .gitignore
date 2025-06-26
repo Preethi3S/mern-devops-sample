@@ -1,0 +1,79 @@
+# -------------------------------
+# Node.js (Frontend & Backend)
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv and local secrets
+.env
+.env.local
+.env.*.local
+
+# -------------------------------
+# React Build
+# -------------------------------
+frontend/build/
+frontend/.env
+
+# -------------------------------
+# Python (if used for automation/scripts)
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+pip-log.txt
+*.egg-info/
+
+# -------------------------------
+# Logs
+# -------------------------------
+logs
+*.log
+backend/logs/
+frontend/logs/
+
+# -------------------------------
+# OS Files
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Docker
+# -------------------------------
+*.pid
+docker-compose.override.yml
+
+# -------------------------------
+# Terraform
+# -------------------------------
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.backup
+
+# -------------------------------
+# Jenkins
+# -------------------------------
+jenkins_home/
+*.old
+
+# -------------------------------
+# IDEs & Editors
+# -------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# -------------------------------
+# Misc
+# -------------------------------
+temp/
+tmp/
+uploads/
